@@ -75,7 +75,7 @@ const CloseIcon = () => (
 const NavItems = ({ className }) => (
   <div className={className}>
     {navItems.map((item, index) => (
-      <p key={index} className="text-center ml-8">
+      <p key={index} className="ml-8 hover:cursor-pointer">
         {item}
       </p>
     ))}
@@ -115,7 +115,7 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="lg:hidden bg-[#f8f8f8] w-full text-[#333336] font-semibold text-2xl">
-          <NavItems className="text-left ml-8" />
+          <NavItems className="text-left ml-4 pt-4" />
         </div>
       )}
     </nav>

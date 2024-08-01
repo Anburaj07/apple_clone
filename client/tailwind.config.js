@@ -6,7 +6,18 @@ export default {
     sans: ["Source Sans 3", "sans-serif"],
   },
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        custom: [
+          '"SF Pro Text"',
+          '"SF Pro Icons"',
+          '"Helvetica Neue"',
+          'Helvetica',
+          'Arial',
+          'sans-serif',
+        ],
+      },
+    },
   },
   plugins: [],
 }
